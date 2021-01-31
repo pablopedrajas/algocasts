@@ -19,11 +19,10 @@ function reverse(str) {
     //solution 2 which is the same as 1, but better formatted
     // -------------------------
 
-    // return str
-    //     .split('')
-    //     .reverse()
-    //     .join('')
-
+    return str
+        .split('')
+        .reverse()
+        .join('')
     // -------------------------
     //solution 3
     // -------------------------
@@ -40,9 +39,9 @@ function reverse(str) {
     //solution 4
     // -------------------------
 
-    return str.split('').reduce((reversed, character) => {
-        return character + reversed;
-    }, '');
+    // return str.split('').reduce((reversed, character) => {
+    //     return character + reversed;
+    // }, '');
 }
 
 module.exports = reverse;
