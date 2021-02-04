@@ -8,7 +8,7 @@
 
 function reverse(str) {
     // -------------------------
-    //solution 1
+    // solution 1
     // -------------------------
 
     // const arr = str.split('');
@@ -24,7 +24,7 @@ function reverse(str) {
         .reverse()
         .join('')
     // -------------------------
-    //solution 3
+    // solution 3
     // -------------------------
     
     // let reversed = "";
@@ -36,7 +36,7 @@ function reverse(str) {
     // return reversed;
 
     // -------------------------
-    //solution 4
+    // solution 4
     // -------------------------
 
     // return str.split('').reduce((reversed, character) => {
